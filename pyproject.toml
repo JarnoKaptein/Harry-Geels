@@ -9,6 +9,7 @@ python = "^3.8"
 Flask = "^2.2.2"
 nextcord = "^2.2.0"
 discord-webhook = "^0.17.0"
+discord = "^2.0.0"
 
 [tool.poetry.dev-dependencies]
 
