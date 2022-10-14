@@ -10,7 +10,7 @@ client = commands.Bot()
 async def on_ready():
     game = nextcord.Game("met zijn doekoes.")
     await client.change_presence(status=nextcord.Status.idle, activity=game)
-    print(f"{client.user.name} booted up.")
+    print(f"{client.user.name} is ready for take-off.")
 
 keep_alive()
 token = os.environ['token']
